@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.pf-c-breadcrumb {
+  float:left;
+}
+
+.TopGalleryCards .pf-c-card {
+  border-top: 2px solid #39a5dc;
+}
+
+ul.cardStatusList{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  padding: 5px 5px;
+}
+
+ul.cardStatusList li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  padding: 5px 5px;
+  margin: 0px 2px !important;
+  border-right: 1px solid #eee;
+  line-height:10px;
+  box-sizing: border-box;
+}
+
+ul.cardStatusList li:last-child{
+  border:none !important;
+}
