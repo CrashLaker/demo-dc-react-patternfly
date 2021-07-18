@@ -74,7 +74,8 @@ const MySidebar = (props) => {
     'Table',
     'Network Services',
     'Servers',
-    'demo/page/group-page'
+    'demo/page/group-page',
+    'IconGallery',
   ]
 
   const navItems = navList.map((e,idx) => {

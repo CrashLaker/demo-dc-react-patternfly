@@ -80,6 +80,9 @@ const NetworkServicesView = React.lazy(() => {
 const ServersView = React.lazy(() => {
   return import('../Views/Servers')
 })
+const IconGalleryView = React.lazy(() => {
+  return import('../Views/IconGallery')
+})
 
 class BasicNotificationDrawer extends React.Component {
   constructor(props) {
@@ -233,6 +236,7 @@ class BasicNotificationDrawer extends React.Component {
               <Route path="/table" exact render={(props) => <TableView {...props}/>}/>
               <Route path="/network-services" exact render={(props) => <NetworkServicesView {...props}/>}/>
               <Route path="/servers" exact render={(props) => <ServersView {...props}/>}/>
+              <Route path="/icongallery" exact render={(props) => <IconGalleryView {...props}/>}/>
               <Route path="/" component={HomeView}/>
             </Switch>
           </Suspense>
