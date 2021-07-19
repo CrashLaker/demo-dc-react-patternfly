@@ -19,3 +19,8 @@ code {
 * {
   outline: none !important;
 }
+
+
+.ws-react-charts-sparkline-overflow svg {
+  overflow: visible;
+}
